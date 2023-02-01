@@ -1,4 +1,6 @@
-Components- WAF
+## Components- WAF
+
+WAF stands for Web Application Firewall and we have chosen that as a base for the security component, hense the use of waf in the documentation. 
 
 for the ODALA project.
 
