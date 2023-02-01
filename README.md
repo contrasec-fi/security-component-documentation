@@ -2,7 +2,7 @@
 
 WAF stands for Web Application Firewall and we have chosen that as a base for the security component, hense the use of waf in the documentation. 
 
-for the ODALA project.
+The deployment files can be found [here](https://gitlab.publiccode.solutions/odala-public/loki-stack), this project is just for the documentation.
 
 © 2022 Contrasec Oy
 
