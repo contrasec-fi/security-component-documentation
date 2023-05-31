@@ -204,14 +204,13 @@ In this example, threshold is set to 10, timerange to 15 minutes and 14 requests
 
 ### Configuring alerts
 
-Alerts can be configured with Gitlab's CI/CD pipeline. Email addresses, threshold, timerange and evaluation time can be defined.
+Alerts can be configured with Gitlab's CI/CD pipeline. Email addresses, threshold and timerange can be defined.
 
 Explanation of variables:
   * Threshold - Amount of attacks per IP address to trigger the alert
-  * Timerange - how far from present time logs are queried
-  * Evaluation time - When threshold is exceeded, alert state is in pending state for time of evaluation time. It is recommended to put few minutes below timerange **(timerange - 3 minutes = evaluation time)**
+  * Timerange - how far from current time logs are queried
 
-![CI/CD Pipeline](/pictures/waf-pipeline.png)
+![CI/CD Pipeline](pictures/waf-pipeline.png)
 
 When applying new values into variables and creating a commit, changes will be moved into Kubernetes cluster.
 
